@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello THis is my Sample Node.JS code!");
+    response.end("Hello Another Sample Node.JS code!");
 
 });
 
